@@ -1,6 +1,8 @@
 package hms.starter
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.coroutineScope
@@ -13,9 +15,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        title = getString(R.string.app_title)
+        title = "toimii"
 
         val checkStatusTextView = findViewById<TextView>(R.id.main_check)
+
+        val button = findViewById<Button>(R.id.button)
+        button.setOnClickListener{
+            startActivity(Intent(this, interests::class.java))
+        }
 
         lifecycle.coroutineScope.launchWhenCreated {
             try {

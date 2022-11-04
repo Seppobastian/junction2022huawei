@@ -85,8 +85,8 @@ lint/tmp/
 # lint/reports/
 
 # signing
-_signing/
+#_signing/
 
 # HMS specific
-app/agconnect-services.json
-secrets_to_unzip_in_project_root.zip
+#app/agconnect-services.json
+#secrets_to_unzip_in_project_root.zip

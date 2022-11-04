@@ -1,4 +1,4 @@
-# Huawei Mobile Services starter project for native Androi
+# Huawei Mobile Services starter project for native Android
 
 
 This project takes care of all the needed configuration so that you can start coding right away using the [Huawei Mobile Services](https://developer.huawei.com/consumer/en/hms) (HMS) SDKs. We mostly use this project during hackathons.

@@ -11,6 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="324dp"
         android:text="Button"
+        android:textOff="Tech"
+        android:textOn="Tech"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toTopOf="parent" />
@@ -21,6 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="324dp"
         android:text="Button"
+        android:textOff="Comedy"
+        android:textOn="Comedy"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,6 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="264dp"
         android:text="Button"
+        android:textOff="Reading"
+        android:textOn="Reading"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toEndOf="@+id/button2"
@@ -42,6 +48,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="324dp"
         android:text="Button"
+        android:textOff="Music"
+        android:textOn="Music"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toEndOf="@+id/button2"
@@ -53,6 +61,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="264dp"
         android:text="Button"
+        android:textOff="Parties"
+        android:textOn="Parties"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toEndOf="@+id/button5"
@@ -64,6 +74,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="264dp"
         android:text="Button"
+        android:textOff="Shopping"
+        android:textOn="Shopping"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toTopOf="parent" />
@@ -74,6 +86,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="324dp"
         android:text="Button"
+        android:textOff="Biking"
+        android:textOn="Biking"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toEndOf="@+id/button5"
@@ -85,6 +99,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="264dp"
         android:text="Button"
+        android:textOff="Walking"
+        android:textOn="Walking"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -95,6 +111,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="208dp"
         android:text="Button"
+        android:textOff="Travel"
+        android:textOn="Travel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toTopOf="parent" />
@@ -105,6 +123,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="208dp"
         android:text="Button"
+        android:textOff="Art"
+        android:textOn="Art"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -115,6 +135,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="208dp"
         android:text="Button"
+        android:textOff="Coffee"
+        android:textOn="Coffee"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toEndOf="@+id/button2"
@@ -126,6 +148,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="208dp"
         android:text="Button"
+        android:textOff="Gaming"
+        android:textOn="Gaming"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toEndOf="@+id/button5"
@@ -137,6 +161,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:text="Button"
+        android:textOff="Movies"
+        android:textOn="Movies"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toTopOf="parent" />
@@ -147,6 +173,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:text="Button"
+        android:textOff="Soccer"
+        android:textOn="Soccer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toTopOf="parent" />
@@ -157,6 +185,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:text="Button"
+        android:textOff="Climbing"
+        android:textOn="Climbing"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent" />
@@ -167,8 +197,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:text="Button"
+        android:textOff="Golf"
+        android:textOn="Golf"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_next_interests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

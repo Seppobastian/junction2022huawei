@@ -6,7 +6,6 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.coroutineScope
-import hms.starter.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.lang.Exception
@@ -15,13 +14,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        title = "toimii"
+        title = "Login"
 
         val checkStatusTextView = findViewById<TextView>(R.id.main_check)
 
-        val button = findViewById<Button>(R.id.button)
+        val button = findViewById<Button>(R.id.button_login)
         button.setOnClickListener{
-            startActivity(Intent(this, interests::class.java))
+            startActivity(Intent(this, InterestsActivity::class.java))
         }
 
         lifecycle.coroutineScope.launchWhenCreated {

@@ -4,4 +4,6 @@
     <string name="checking_setup">Checking setup …</string>
     <string name="checking_setup_result_ok">All good. Start hacking!</string>
     <string name="checking_setup_result_fail">Issue found: %1$s</string>
+    <string name="matchtext">Time: 12:00\nLocation: Undergraduate Center</string>
+    <string name="top5">1. University of Helsinki:  17 895\n2. Aalto University: 16 980\n3. University of Turku: 15 780\n4. LUT University: 13 120\n5. Univesity of Tampere: 11 660</string>
 </resources>

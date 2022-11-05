@@ -18,9 +18,11 @@
 
     <ToggleButton
         android:id="@+id/button"
-        android:layout_width="350dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="150dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/btn_toggle"
         android:text="Button"
         android:textOff="Basic Course in Probability"
@@ -31,9 +33,11 @@
 
     <ToggleButton
         android:id="@+id/button18"
-        android:layout_width="350dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/btn_toggle"
         android:text="Button"
         android:textOff="Diffis 1"
@@ -45,9 +49,11 @@
 
     <ToggleButton
         android:id="@+id/button19"
-        android:layout_width="350dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/btn_toggle"
         android:text="Button"
         android:textOff="C Programming"
@@ -59,9 +65,11 @@
 
     <ToggleButton
         android:id="@+id/button20"
-        android:layout_width="350dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/btn_toggle"
         android:text="Button"
         android:textOff="Johdatus Opiskeluun"

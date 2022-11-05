@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="324dp"
-        android:background="@drawable/btn_toggle"
+        android:background="@drawable/btn_toggle_ripple"
         android:text="Button"
         android:textOff="Tech"
         android:textOn="Tech"

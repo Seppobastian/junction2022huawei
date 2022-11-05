@@ -9,6 +9,7 @@ class MatchActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_match)
+        title = "Main"
 
         val button = findViewById<Button>(R.id.button_yes)
         button.setOnClickListener{

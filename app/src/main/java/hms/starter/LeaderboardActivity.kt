@@ -8,6 +8,7 @@ import android.widget.Button
 class LeaderboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = "Leaderboard"
 
         setContentView(R.layout.activity_leaderboard)
         val button = findViewById<Button>(R.id.button_back_2)

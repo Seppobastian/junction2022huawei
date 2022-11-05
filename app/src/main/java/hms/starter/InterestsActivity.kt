@@ -11,6 +11,7 @@ class InterestsActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_interests)
+        title = "Interests"
 
         val button = findViewById<Button>(R.id.button_next_interests)
         button.setOnClickListener{

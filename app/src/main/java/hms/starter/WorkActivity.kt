@@ -9,6 +9,7 @@ class WorkActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_work)
+        title = "Courses"
 
         val button = findViewById<Button>(R.id.button_next_work)
         button.setOnClickListener{

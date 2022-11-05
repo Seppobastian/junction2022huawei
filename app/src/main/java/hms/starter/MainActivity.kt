@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        title = "toimii"
+        title = "Login"
 
         val checkStatusTextView = findViewById<TextView>(R.id.main_check)
 
